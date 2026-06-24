@@ -11,7 +11,7 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="Placify AI", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="Placify AI", layout="wide")
 
 # ---------- Load model ----------
 @st.cache_resource
@@ -35,7 +35,7 @@ st.title("Placify AI — Placement Package Predictor")
 st.caption("Predict a student's expected placement package (LPA) using Linear Regression, "
            "based on academic performance and skill-based parameters.")
 
-tab1, tab2, tab3 = st.tabs(["🔮 Predict", "📊 Data Insights", "📈 Model Info"])
+tab1, tab2, tab3 = st.tabs([" Predict", " Data Insights", " Model Info"])
 
 # ===================== TAB 1: PREDICT =====================
 with tab1:
