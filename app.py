@@ -63,7 +63,7 @@ with tab1:
         "Backlogs": backlogs,
     }])[FEATURES]
 
-    if st.button("🔮 Predict My Package", type="primary"):
+    if st.button("Predict My Package", type="primary"):
         prediction = model.predict(input_df)[0]
         prediction = max(prediction, 0)
         st.success(f"### Predicted Placement Package: ₹ {prediction:.2f} LPA")
