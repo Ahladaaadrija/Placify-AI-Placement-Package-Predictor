@@ -31,7 +31,7 @@ def load_data():
 df = load_data()
 
 # ---------- Header ----------
-st.title("🎓 Placify AI — Placement Package Predictor")
+st.title("Placify AI — Placement Package Predictor")
 st.caption("Predict a student's expected placement package (LPA) using Linear Regression, "
            "based on academic performance and skill-based parameters.")
 
